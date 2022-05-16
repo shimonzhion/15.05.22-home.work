@@ -17,7 +17,7 @@
 //     if (numArray[i] == x) {
 //       console.log(true);
 //     }
-//     else{
+//     else if (numAA){
 //       console.log(false)
 //     }
 //   }
@@ -50,6 +50,54 @@
 // }
 // MaxNumArray()
 
-var numbers = [0,1,2,3,4,5,6]
+// function NumArray(array = []) {
 
-document.write(numbers.slice(1,2))
+//     console.log(array.sort());
+
+// }
+// NumArray([8,9,4,6,1-]);
+// var i = 0;
+// var max = 0;
+// while(i<5){
+//   var numbers =+prompt("enter num")
+//   if(sum<numbers){
+//     sum =numbers
+//     console.l
+//   }
+
+//   i++
+// }
+// var x = "********"
+// function rectangle() {
+
+
+// for(var i =0 ; i<16;i++){
+//   document.write(x+"<br>")
+// }
+// }
+// rectangle()
+// var array =[]
+// function numbers (array,number){
+//   for (var i = 0; i < array.length; i++) {
+//     if (number==array[i]){
+//       array.splice([])
+//     }
+//     else{
+//       array.push(number)
+//     }
+//   }
+  
+// }
+// numbers([7,9,8,5,4,3,2,1],2)
+
+function numMax (array){
+  var max= array[0]
+  for (var i= 0; i< array.length; i++){
+    if (max<array[i]){
+      max = array[i]
+    }
+  }
+
+  console.log(max)
+}
+numMax([7,4,2,9])
